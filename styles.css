@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-nav{
+    margin-left:40%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-item{
+    margin-left:2%;
+}
+
+.navbar-light .navbar-brand{
+    margin-left: 15%;
+    color: #14279B;
+}
+
+.homebx{
+    background-color:#DBDFFD;
+    width: 100%;
+    height: 710px;
+    color: #14279B;
+}
+h1{
+     font-weight: 800;
+     font-size: 100px;
+}
+.homecontent{
+    padding-left: 15%;
+    padding-top: 17%;
+}
+.homebx p{
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #646FD4;
+}
+
+.links img{
+    margin-top: 2%;
+    margin-right:2%;
+    max-width: 40px;
+    height: auto;
+}
+.homeimg{
+    position: relative;
+    float: right;
+    border-radius: 80% 80% 100% 50%;
+    max-width: 30%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 10%;
+    margin-right: 12%;
+}
+.aboutbx{
+    height: 650px;
+}
+h3{
+    font-size: 60px;
+    text-align:center;
+    margin-bottom: 3%;
+    padding-top: 3%;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* color: #14279B; */
+}
+.aboutbx p{
+    font-size: 20px;
+    margin-top:5%;
+    margin-right: 10%;
+}
+.aboutbx img{
+    position:relative;
+    float: left;
+    object-fit: contain;
+    max-width: 30%;
+    height: auto;
+    border-radius: 80% 80% 50% 100% ;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+.skillsbx{
+    background-color: #646FD4;
+    /* height: 400px; */
+    color: white;
+}
+.skillsbx .container{
+    width: 100%;
+    margin:  0 6.5%;
+    padding-bottom: 1%;
+}
+.skillsbx .container .row{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    flex-wrap: wrap;
+    gap: 3%;
+    margin: 5%;
+}
+.skillsbx .container .bar{
+    background-color: #14279B;
+    padding: 11px;
+    border-radius: 5%;
+    box-shadow: 0 15px 25px rgb(0 0 0 / 20%);
+    transition: 0.2s;
+    margin-bottom: 10%;
+    
+}
+.skillsbx img{
+    max-width: 55px;
+    margin: 3%;
+}
+.skillsbx span{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.edubx{
+    background-color: white;
+    height: 400px;
+}
+.projectbx{
+    background-color: #DBDFFD;
+    /* height: 800px; */
+}
+.projectbx .container{
+    /* margin: 2%; */
+    padding: 2%;
+}
+.projectbx h3{
+    color: #14279B;
+}
+.view{
+    display: flex;
+    gap: 40%;
+    margin: 0 5% 3%;
+}
+.btn{
+    background-color: #14279B !important;
+    border-color: #14279B !important;
+    color: white;
+    font-weight: bold;
+}
+.footerbx{
+    padding: 1%;
+    color: white;
+    background-color: #14279B;
+}
+.footerbx .fbox{
+    display: flex;
+    flex-flow: row;
+}
+.footerbx .common{
+    margin: 2% 10%;
+}
+.footerbx .contact{
+    margin-left:25% ;
+}
+.contact h3{
+    text-align: left;
+    margin-bottom: 10%;
+}
+.mailme{
+    display: flex;
+
+}
+.mailme img{
+    max-width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 5%;
+}
+.footerbx .thanks p{
+    margin-top: 7%;
+}
+.footerbx .bottomline p{
+    text-align: center;
+}
+.fbox .icon{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+}
+.bottomline a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+
+}
