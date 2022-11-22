@@ -122,11 +122,6 @@ h3{
     font-size: 20px;
     color: white;
 }
-
-.edubx{
-    background-color: white;
-    height: 400px;
-}
 .projectbx{
     background-color: #DBDFFD;
     /* height: 800px; */
@@ -184,15 +179,155 @@ h3{
 .footerbx .bottomline p{
     text-align: center;
 }
-.fbox .icon{
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    border-radius: 100%;
-}
+
 .bottomline a{
     text-decoration: none;
     color: inherit;
     font-weight: bold;
 
+}
+
+@media only screen and (max-width:700px){
+    *{
+        /* overflow-x:hidden; */
+
+    }
+    h2 h3{
+        font-size: 20%;
+    }
+
+    .homebx{
+        height: auto;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    .homebx .imgbx{
+        padding-top: 15%;
+        padding-left: 15%;
+    }
+    .homebx .imgbx img{
+        float: none;
+        max-width: 55%;
+    }
+    .homebx .links img{
+        max-width: 30px;
+        height: auto;
+    }
+    .homebx .homecontent{
+        padding-top: 5%;
+        padding-right:10% ;
+    }
+    .aboutbx{
+        height: auto;
+    }
+    .aboutbx p{
+        padding-left: 10%;
+        font-size: 80%;
+    }
+    .aboutbx .imgbx{
+        padding-left: 25%;
+    }
+    .aboutbx img{
+        float: none;
+        max-width: 45%;
+    }
+    .skillsbx .container{
+        margin: 0;
+        padding-right: 35%;
+    }
+    .skillsbx img{
+        max-width: 45px;
+    }
+    .skillsbx .bar .info span{
+        font-size: 12px;
+    }
+    .footerbx .fbox{
+        flex-flow: column;
+        text-align: center;
+    }
+    .footerbx p{
+        font-size: 75%;
+    }
+    .footerbx .thanks p{
+        margin-top: 3%;
+    }
+    .footerbx .common{
+        margin-bottom:0;
+    }
+    .footerbx .common h2 h3{
+        font-size: 80;
+    }
+    .contact h3{
+        text-align: center;
+        margin-bottom: 5%;
+        padding-right: 20%;
+    }
+    .mailme{
+        padding-left: 10%;
+    }
+    .mailme img{
+        margin-right:2% ;
+        max-width: 20px;
+        height: 20px;
+    }
+    .footerbx .contact .links{
+        margin: 0;
+        padding-right: 20%;
+        /* margin */
+        margin-bottom: 2%;
+    }
+    .footerbx .contact .links img{
+        max-width: 30px;
+        height: auto;
+
+    }
+
+}
+
+@media only screen and (max-width:1200px){
+    h2 h3{
+        font-size: 20%;
+    }
+    .homebx{
+        height: auto;
+    }
+    .homebx .imgbx{
+        padding-top: 12%;
+        padding-left: 20%;
+    }
+    .homebx .imgbx img{
+        max-width: 35%;
+        height: auto;
+    }
+    .homebx .homecontent{
+        padding: 12%;
+        font-size: 10%;
+    }
+    .homebx .links img{
+        max-width: 5%;
+        height: auto;
+    }
+    
+    .aboutbx {
+        height: auto;
+        padding-bottom:5% ;
+    }
+    .aboutbx p{
+        font-size: 95%;
+        margin-left: 10%;
+    }
+    .skillsbx span{
+        font-size: 90%;
+    }
+    .skillsbx img{
+        max-width: 40%;
+        height: auto;
+    }
+    .footerbx p{
+        font-size: 80%;
+    }
+    .footerbx .links img{
+        max-width: 15%;
+        height: auto;
+    }
 }
