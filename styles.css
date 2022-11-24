@@ -187,11 +187,13 @@ h3{
 
 }
 
-@media only screen and (max-width:700px){
-    *{
-        /* overflow-x:hidden; */
 
+@media only screen and (max-width:700px){
+    .homebx{
+        display: flex;
+        flex-flow: column-reverse;
     }
+
     h2 h3{
         font-size: 20%;
     }
@@ -202,7 +204,7 @@ h3{
         padding-bottom: 5%;
     }
     .homebx .imgbx{
-        padding-top: 15%;
+        padding-top: 5%;
         padding-left: 15%;
     }
     .homebx .imgbx img{
@@ -214,8 +216,10 @@ h3{
         height: auto;
     }
     .homebx .homecontent{
+        padding: 0;
         padding-top: 5%;
         padding-right:10% ;
+        
     }
     .aboutbx{
         height: auto;
@@ -232,8 +236,7 @@ h3{
         max-width: 45%;
     }
     .skillsbx .container{
-        margin: 0;
-        padding-right: 35%;
+        margin-left: 10%;
     }
     .skillsbx img{
         max-width: 45px;
@@ -284,6 +287,14 @@ h3{
 
 }
 
+@media only screen and (max-width:500px){
+    .mailme{
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
 @media only screen and (max-width:1200px){
     h2 h3{
         font-size: 20%;
@@ -329,5 +340,85 @@ h3{
     .footerbx .links img{
         max-width: 15%;
         height: auto;
+    }
+
+    
+}
+@media only screen and (max-width:700px){
+    .homebx .homecontent{
+        padding: 0;
+        margin-top: 15%;   
+    }
+    .homebx .imgbx{
+        padding: 0;
+        margin: 0;
+        margin-left: 8%;
+        max-width: 100%;
+    }
+    .aboutbx p{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:580px){
+    .homebx{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .homebx .homecontent{
+        padding: 0;
+        margin-top: 25%;   
+    }
+    .homebx .links img{
+        max-width: 7%;
+    }
+    .homebx .imgbx{
+        margin: 0;
+        padding: 0;
+    }
+    .homebx .homeimg{
+        margin:0;
+        margin-top: 5%;
+        padding: 0;
+        max-width: 100%;
+    }
+    .aboutbx{
+        height: auto;
+    }
+    .aboutbx img{
+        display: none;
+    }
+    .aboutbx p{
+        padding: 0;
+        margin:0 6%;
+    }
+    .header .navbar-brand{
+        margin-left: 2%;
+    }
+    .header h2{
+        font-size: 70%;
+    }
+    .skillsbx .container{
+        height: auto;
+        margin: 0 2%;
+        padding-right: 5%;
+        padding-bottom: 12%;
+    }
+    .skillsbx .container .row{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .skillsbx .container .bar{
+        /* margin-right: 10%; */
+        width: 150%;
+    }
+    .skillsbx .container img{
+        max-width:30%;
+        float: left;
+    }
+    .skillsbx span{
+        font-size: 30px;
+    }
+    .mailme p{
+        padding-right: 5%;
     }
 }
